@@ -1,0 +1,3 @@
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.AssemblyReference.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.SuggestedBindingRedirects.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.CoreCompileInputs.cache

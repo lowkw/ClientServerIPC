@@ -1,0 +1,23 @@
+Solutions
+-------------------------------
+AstroMath        - Class Library
+TestAstro        - Console Application
+                 - references AstroMath.dll
+ConsoleAppServer - Console Application
+                 - references AstroMath.dll
+ConsoleAppClient - Console Application
+
+Use the same .NET framework (i.e. .NET framework 4.7.2) for all the solutions:
+------------------------------------------------------------------------------
+AstroMath
+ConsoleAppClient
+ConsoleAppServer
+Note: mixing .NET Core and .NET framework will result in ambiguous runtime errors.
+
+Add ServiceModel reference 
+--------------------------
+Project --> Add Reference --> Assemblies --> Framework --> System.ServiceModel
+
+Build
+-----
+Release (not Debug)

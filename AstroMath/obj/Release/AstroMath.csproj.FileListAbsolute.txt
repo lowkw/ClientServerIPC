@@ -1,0 +1,6 @@
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\bin\Release\AstroMath.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\bin\Release\AstroMath.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\obj\Release\AstroMath.csproj.AssemblyReference.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\obj\Release\AstroMath.csproj.CoreCompileInputs.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\obj\Release\AstroMath.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\AstroMath\obj\Release\AstroMath.pdb

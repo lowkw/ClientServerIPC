@@ -1,0 +1,10 @@
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\bin\Debug\ConsoleAppClient.exe.config
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\bin\Debug\ConsoleAppClient.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\bin\Debug\ConsoleAppClient.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\bin\Debug\AstroMath.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\bin\Debug\AstroMath.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Debug\ConsoleAppClient.csproj.SuggestedBindingRedirects.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Debug\ConsoleAppClient.csproj.CoreCompileInputs.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Debug\ConsoleAppClient.csproj.CopyComplete
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Debug\ConsoleAppClient.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Debug\ConsoleAppClient.pdb
