@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bc55657a-19da-4925-8287-e7af73b10d4d": {
+      "ProjectGuid": "bc55657a-19da-4925-8287-e7af73b10d4d",
+      "DisplayName": "ConsoleAppServer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
