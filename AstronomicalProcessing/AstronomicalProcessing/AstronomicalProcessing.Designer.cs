@@ -38,6 +38,10 @@
             this.tbEventHorizonBlackholeIn = new System.Windows.Forms.TextBox();
             this.tbEventHorizonPowerIn = new System.Windows.Forms.TextBox();
             this.tbEventHorizonOut = new System.Windows.Forms.TextBox();
+            this.btStarVelocity = new System.Windows.Forms.Button();
+            this.btStarDistance = new System.Windows.Forms.Button();
+            this.btTemperature = new System.Windows.Forms.Button();
+            this.btEventHorizon = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbStarVelocityObservedWaveIn
@@ -49,7 +53,7 @@
             // 
             // tbStarVelocityOut
             // 
-            this.tbStarVelocityOut.Location = new System.Drawing.Point(332, 43);
+            this.tbStarVelocityOut.Location = new System.Drawing.Point(357, 42);
             this.tbStarVelocityOut.Name = "tbStarVelocityOut";
             this.tbStarVelocityOut.Size = new System.Drawing.Size(100, 20);
             this.tbStarVelocityOut.TabIndex = 1;
@@ -63,7 +67,7 @@
             // 
             // tbStarDistanceOut
             // 
-            this.tbStarDistanceOut.Location = new System.Drawing.Point(332, 111);
+            this.tbStarDistanceOut.Location = new System.Drawing.Point(357, 111);
             this.tbStarDistanceOut.Name = "tbStarDistanceOut";
             this.tbStarDistanceOut.Size = new System.Drawing.Size(100, 20);
             this.tbStarDistanceOut.TabIndex = 3;
@@ -84,7 +88,7 @@
             // 
             // tbTemperatureOut
             // 
-            this.tbTemperatureOut.Location = new System.Drawing.Point(332, 172);
+            this.tbTemperatureOut.Location = new System.Drawing.Point(357, 172);
             this.tbTemperatureOut.Name = "tbTemperatureOut";
             this.tbTemperatureOut.Size = new System.Drawing.Size(100, 20);
             this.tbTemperatureOut.TabIndex = 6;
@@ -105,16 +109,57 @@
             // 
             // tbEventHorizonOut
             // 
-            this.tbEventHorizonOut.Location = new System.Drawing.Point(332, 235);
+            this.tbEventHorizonOut.Location = new System.Drawing.Point(357, 236);
             this.tbEventHorizonOut.Name = "tbEventHorizonOut";
             this.tbEventHorizonOut.Size = new System.Drawing.Size(100, 20);
             this.tbEventHorizonOut.TabIndex = 9;
+            // 
+            // btStarVelocity
+            // 
+            this.btStarVelocity.Location = new System.Drawing.Point(232, 40);
+            this.btStarVelocity.Name = "btStarVelocity";
+            this.btStarVelocity.Size = new System.Drawing.Size(92, 23);
+            this.btStarVelocity.TabIndex = 10;
+            this.btStarVelocity.Text = "Star Velocity";
+            this.btStarVelocity.UseVisualStyleBackColor = true;
+            this.btStarVelocity.Click += new System.EventHandler(this.btStarVelocity_Click);
+            // 
+            // btStarDistance
+            // 
+            this.btStarDistance.Location = new System.Drawing.Point(232, 107);
+            this.btStarDistance.Name = "btStarDistance";
+            this.btStarDistance.Size = new System.Drawing.Size(92, 23);
+            this.btStarDistance.TabIndex = 11;
+            this.btStarDistance.Text = "Star Distance";
+            this.btStarDistance.UseVisualStyleBackColor = true;
+            // 
+            // btTemperature
+            // 
+            this.btTemperature.Location = new System.Drawing.Point(232, 169);
+            this.btTemperature.Name = "btTemperature";
+            this.btTemperature.Size = new System.Drawing.Size(92, 23);
+            this.btTemperature.TabIndex = 12;
+            this.btTemperature.Text = "Temperature";
+            this.btTemperature.UseVisualStyleBackColor = true;
+            // 
+            // btEventHorizon
+            // 
+            this.btEventHorizon.Location = new System.Drawing.Point(232, 236);
+            this.btEventHorizon.Name = "btEventHorizon";
+            this.btEventHorizon.Size = new System.Drawing.Size(92, 23);
+            this.btEventHorizon.TabIndex = 13;
+            this.btEventHorizon.Text = "Event Horizon";
+            this.btEventHorizon.UseVisualStyleBackColor = true;
             // 
             // AstronomicalProcessing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btEventHorizon);
+            this.Controls.Add(this.btTemperature);
+            this.Controls.Add(this.btStarDistance);
+            this.Controls.Add(this.btStarVelocity);
             this.Controls.Add(this.tbEventHorizonOut);
             this.Controls.Add(this.tbEventHorizonPowerIn);
             this.Controls.Add(this.tbEventHorizonBlackholeIn);
@@ -144,6 +189,10 @@
         private System.Windows.Forms.TextBox tbEventHorizonBlackholeIn;
         private System.Windows.Forms.TextBox tbEventHorizonPowerIn;
         private System.Windows.Forms.TextBox tbEventHorizonOut;
+        private System.Windows.Forms.Button btStarVelocity;
+        private System.Windows.Forms.Button btStarDistance;
+        private System.Windows.Forms.Button btTemperature;
+        private System.Windows.Forms.Button btEventHorizon;
     }
 }
 

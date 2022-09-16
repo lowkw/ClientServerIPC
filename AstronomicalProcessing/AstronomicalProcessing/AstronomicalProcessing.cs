@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.ServiceModel;
 
 namespace AstronomicalProcessing
 {
@@ -15,6 +16,17 @@ namespace AstronomicalProcessing
         public AstronomicalProcessing()
         {
             InitializeComponent();
+            ChannelFactory<IAstroContract> pipeFactory =
+                new ChannelFactory<IAstroContract>(
+                    new NetNamedPipeBinding(),
+                    new EndpointAddress("net.pipe://localhost/PipeAstro"));
+
+            IAstroContract pipeProxy = pipeFactory.CreateChannel();
+        }
+
+        private void btStarVelocity_Click(object sender, EventArgs e)
+        {
+            pipeProxy.
         }
     }
 }
