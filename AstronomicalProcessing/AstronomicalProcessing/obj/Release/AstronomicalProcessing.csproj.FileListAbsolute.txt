@@ -1,0 +1,11 @@
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\bin\Release\AstronomicalProcessing.exe.config
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\bin\Release\AstronomicalProcessing.exe
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\bin\Release\AstronomicalProcessing.pdb
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.csproj.AssemblyReference.cache
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.csproj.SuggestedBindingRedirects.cache
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.AstronomicalProcessing.resources
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.Properties.Resources.resources
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.csproj.GenerateResource.cache
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.csproj.CoreCompileInputs.cache
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.exe
+D:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.pdb
