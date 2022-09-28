@@ -17,3 +17,11 @@ H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\Console
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Release\ConsoleAppClient.csproj.CoreCompileInputs.cache
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Release\ConsoleAppClient.exe
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppClient\obj\Release\ConsoleAppClient.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\bin\Release\ConsoleAppClient.exe.config
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\bin\Release\ConsoleAppClient.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\bin\Release\ConsoleAppClient.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\obj\Release\ConsoleAppClient.csproj.AssemblyReference.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\obj\Release\ConsoleAppClient.csproj.SuggestedBindingRedirects.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\obj\Release\ConsoleAppClient.csproj.CoreCompileInputs.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\obj\Release\ConsoleAppClient.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppClient\obj\Release\ConsoleAppClient.pdb

@@ -27,9 +27,9 @@ namespace ConsoleAppServer
         {
             return formulaObj.MeasureTemperature(celsius);
         }
-        public double MeasureEventHorizon(double blackholeMass, int kgPower)
+        public double MeasureEventHorizon(double blackholeMass, int powersOf10)
         {
-            return formulaObj.MeasureEventHorizon(blackholeMass, kgPower);
+            return formulaObj.MeasureEventHorizon(blackholeMass, powersOf10);
         } 
     }
 }

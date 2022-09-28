@@ -9,3 +9,14 @@ H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\TestAst
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\TestAstro\obj\Debug\TestAstro.csproj.CopyComplete
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\TestAstro\obj\Debug\TestAstro.exe
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\TestAstro\obj\Debug\TestAstro.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\bin\Debug\TestAstro.exe.config
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\bin\Debug\TestAstro.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\bin\Debug\TestAstro.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\bin\Debug\AstroMath.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\bin\Debug\AstroMath.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.csproj.AssemblyReference.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.csproj.SuggestedBindingRedirects.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.csproj.CoreCompileInputs.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.csproj.CopyComplete
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\TestAstro\obj\Debug\TestAstro.pdb

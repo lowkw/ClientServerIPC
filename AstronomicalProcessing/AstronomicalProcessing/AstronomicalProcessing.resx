@@ -117,4 +117,676 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>867, 450</value>
+  </data>
+  <data name="&gt;&gt;labelParallaxAngle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btFrench.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRestWavelength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRestWavelength.Name" xml:space="preserve">
+    <value>labelRestWavelength</value>
+  </data>
+  <data name="&gt;&gt;labelObservedWavelength.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbEventHorizonPowerIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 259</value>
+  </data>
+  <data name="&gt;&gt;btEnglish.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btGerman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 333</value>
+  </data>
+  <data name="tbStarVelocityRestWaveIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelBlackholeMass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 236</value>
+  </data>
+  <data name="&gt;&gt;labelBlackholeMass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbStarVelocityObservedWaveIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 44</value>
+  </data>
+  <data name="btEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;chTemperature.Name" xml:space="preserve">
+    <value>chTemperature</value>
+  </data>
+  <data name="btStarVelocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="&gt;&gt;btStarDistance.Name" xml:space="preserve">
+    <value>btStarDistance</value>
+  </data>
+  <data name="btStarDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chEventHorizon.Width" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;listViewAstroProcessing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPowersOf10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 266</value>
+  </data>
+  <data name="btEventHorizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="btTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelParallaxAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;labelMeasurement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityObservedWaveIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEventHorizonBlackholeIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 233</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonBlackholeIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelBlackholeMass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 171</value>
+  </data>
+  <data name="&gt;&gt;labelPowersOf10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPowersOf10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistanceIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btStarVelocity.Name" xml:space="preserve">
+    <value>btStarVelocity</value>
+  </data>
+  <data name="btStarDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="labelObservedWavelength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="labelCelsius.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelObservedWavelength.Name" xml:space="preserve">
+    <value>labelObservedWavelength</value>
+  </data>
+  <data name="&gt;&gt;labelMeasurement.Name" xml:space="preserve">
+    <value>labelMeasurement</value>
+  </data>
+  <data name="tbStarVelocityRestWaveIn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chTemperature.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityObservedWaveIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbEventHorizonPowerIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="chStarDistance.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="labelPowersOf10.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="tbEventHorizonBlackholeIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;labelRestWavelength.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelObservedWavelength.Text" xml:space="preserve">
+    <value>Observed Wavelength</value>
+  </data>
+  <data name="&gt;&gt;labelPowersOf10.Name" xml:space="preserve">
+    <value>labelPowersOf10</value>
+  </data>
+  <data name="listViewAstroProcessing.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelBlackholeMass.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelMeasurement.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelBlackholeMass.Text" xml:space="preserve">
+    <value>Blackhole Mass</value>
+  </data>
+  <data name="&gt;&gt;listViewAstroProcessing.Name" xml:space="preserve">
+    <value>listViewAstroProcessing</value>
+  </data>
+  <data name="&gt;&gt;labelCelsius.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbStarDistanceIn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 58</value>
+  </data>
+  <data name="&gt;&gt;tbTemperatureIn.Name" xml:space="preserve">
+    <value>tbTemperatureIn</value>
+  </data>
+  <data name="&gt;&gt;btEventHorizon.Name" xml:space="preserve">
+    <value>btEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;chEventHorizon.Name" xml:space="preserve">
+    <value>chEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonBlackholeIn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelRestWavelength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 78</value>
+  </data>
+  <data name="&gt;&gt;btStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btFrench.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelRestWavelength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AstronomicalProcessing</value>
+  </data>
+  <data name="btEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btFrench.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbStarDistanceIn.Text" xml:space="preserve">
+    <value>0.547</value>
+  </data>
+  <data name="labelCelsius.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btGerman.Name" xml:space="preserve">
+    <value>btGerman</value>
+  </data>
+  <data name="&gt;&gt;btTemperature.Name" xml:space="preserve">
+    <value>btTemperature</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityObservedWaveIn.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chTemperature.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="chStarVelocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="tbEventHorizonPowerIn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityRestWaveIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Astronomical Processing</value>
+  </data>
+  <data name="&gt;&gt;btEventHorizon.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chEventHorizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistanceIn.Name" xml:space="preserve">
+    <value>tbStarDistanceIn</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityRestWaveIn.Name" xml:space="preserve">
+    <value>tbStarVelocityRestWaveIn</value>
+  </data>
+  <data name="&gt;&gt;labelBlackholeMass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btStarDistance.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelObservedWavelength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btStarDistance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btGerman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btStarVelocity.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbStarVelocityObservedWaveIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btEventHorizon.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tbStarDistanceIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonPowerIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listViewAstroProcessing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 235</value>
+  </data>
+  <data name="btTemperature.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="labelRestWavelength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="btEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonBlackholeIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTemperatureIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelParallaxAngle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelParallaxAngle.Text" xml:space="preserve">
+    <value>Parallax Angle</value>
+  </data>
+  <data name="&gt;&gt;tbTemperatureIn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelMeasurement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTemperatureIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;chStarDistance.Name" xml:space="preserve">
+    <value>chStarDistance</value>
+  </data>
+  <data name="&gt;&gt;labelPowersOf10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelParallaxAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btStarVelocity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbTemperatureIn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityObservedWaveIn.Name" xml:space="preserve">
+    <value>tbStarVelocityObservedWaveIn</value>
+  </data>
+  <data name="tbEventHorizonBlackholeIn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btGerman.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCelsius.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelBlackholeMass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasurement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelRestWavelength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btGerman.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btFrench.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 333</value>
+  </data>
+  <data name="labelCelsius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 176</value>
+  </data>
+  <data name="&gt;&gt;labelParallaxAngle.Name" xml:space="preserve">
+    <value>labelParallaxAngle</value>
+  </data>
+  <data name="&gt;&gt;labelBlackholeMass.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistanceIn.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelPowersOf10.Text" xml:space="preserve">
+    <value>x Powers of 10</value>
+  </data>
+  <data name="listViewAstroProcessing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 44</value>
+  </data>
+  <data name="&gt;&gt;tbTemperatureIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbStarVelocityRestWaveIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 75</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonPowerIn.Name" xml:space="preserve">
+    <value>tbEventHorizonPowerIn</value>
+  </data>
+  <data name="tbStarVelocityObservedWaveIn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btGerman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCelsius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btFrench.Name" xml:space="preserve">
+    <value>btFrench</value>
+  </data>
+  <data name="labelMeasurement.Text" xml:space="preserve">
+    <value>Measurement (SI units)</value>
+  </data>
+  <data name="labelParallaxAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 111</value>
+  </data>
+  <data name="tbEventHorizonPowerIn.Text" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btStarDistance.Text" xml:space="preserve">
+    <value>Star Distance</value>
+  </data>
+  <data name="&gt;&gt;chStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chStarVelocity.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;chStarVelocity.Name" xml:space="preserve">
+    <value>chStarVelocity</value>
+  </data>
+  <data name="&gt;&gt;btEventHorizon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelRestWavelength.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labelMeasurement.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chStarDistance.Text" xml:space="preserve">
+    <value>Star Distance</value>
+  </data>
+  <data name="btEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 235</value>
+  </data>
+  <data name="&gt;&gt;btGerman.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btStarDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 111</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityRestWaveIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCelsius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="&gt;&gt;labelParallaxAngle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btStarVelocity.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tbTemperatureIn.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="tbTemperatureIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 174</value>
+  </data>
+  <data name="tbEventHorizonBlackholeIn.Text" xml:space="preserve">
+    <value>8.2</value>
+  </data>
+  <data name="&gt;&gt;labelObservedWavelength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 44</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonPowerIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btFrench.Text" xml:space="preserve">
+    <value>Francais</value>
+  </data>
+  <data name="&gt;&gt;btEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPowersOf10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 317</value>
+  </data>
+  <data name="&gt;&gt;chStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btFrench.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbStarVelocityObservedWaveIn.Text" xml:space="preserve">
+    <value>500.1</value>
+  </data>
+  <data name="tbStarDistanceIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 111</value>
+  </data>
+  <data name="&gt;&gt;labelBlackholeMass.Name" xml:space="preserve">
+    <value>labelBlackholeMass</value>
+  </data>
+  <data name="labelObservedWavelength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPowersOf10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btEnglish.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAQCAwMDAgQDAwMEBAQEBQkGBQUFBQsICAYJDQsNDQ0LDAwO
+        EBQRDg8TDwwMEhgSExUWFxcXDhEZGxkWGhQWFxb/2wBDAQQEBAUFBQoGBgoWDwwPFhYWFhYWFhYWFhYW
+        FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhb/wAARCAA8AHgDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCv+z/+1BGlvHpGna6ltDIvlyeF/GNyJbORSMFLXUCAIwRkBJwq
+        AcbnNbvxD+CPwE+L+oNDpCXHwk8czqJBpt1CFsbxm6GNMiNlb+FomXIOdjV579t/Zu/6Nu/8vm//AMK6
+        vw78VvhJovhaTw3ZfAuR9IkyVsrvxnd3UVux6tCJUbyWPdo9pPc1VbiXJsDV9vkeIqU3/JKLcPk7tr0a
+        kvI/XVwHxPj1yZxlylL/AJ+QnSjP1kudQn8+WT6zPnX9oD9nf4p/CC4kl8UeH3n0lWxHrOn5ns39MuBm
+        Mn0kCk9s17d+0N/yLXwl/wCyXaN/6DLXqHhT9q7RfDvh46FpvwtuG04qUFveeK5rtVXGNg86FiFx/COP
+        avIf2hPiLafErxVpuqaf4Yh8O2ml6RFplvYQTiWNI43kZduEQKoEgUKBgBfwHHxbxpSzzK4YedvaRd9L
+        2f3pf10R7vh1wDneR8R/W8TRcaPLJKTlC+u14xnK34+pz/7eGjavr/j34UaToemXmpX9z8MdHWG1tIGl
+        lkO6foqgk1jfCr9nO71LWYrPxJLd6lqZw3/CN+GmS4ul/wCvm6+aC2Hqf3jDoyrXukXx+8J3XgbSPD2v
+        fClr+TTdGttJmvIPEktnJeQwoFCyGKIMybtzCNmZQWPfmuj8K/tWeHPDPh46J4d+DtvpVkVKlLPXTEzZ
+        GNxcW+4t/tE5969KHiHOjl9HA4WoqajFJys5S+Styr1dzwZ+GGbfWq+Lr4KVWUpycY+0pQhZttOUvaOb
+        /wAKUH/eAfDv4e/Bvwb5/wAVvE2keB9IuY8/8Iv4elZ77U1H8NxcfNPcc9VH7tTyCgr5Y/bH+MXg34nX
+        OgaN8P8AwOnhnw/4Y+1C1ZyonvTN5OXlVc4IEK9WcnJye1ereI/E3wF8Qa1Pq+u/AK81PULpt891efED
+        UZZZT6szAk14x+1HN8N5v7C/4V78N/8AhDtv2j7d/wATyfUPtn+q8v8A1oGzb8/Trv56Cvf4NzPh2tmt
+        NQqVKuLnf3prtFt63fRPy7JHz/FPDfGWGy2dfHYdUsJTt7sJQUFdqKfLGTbd2lzO8u7PJaKKK/Yz8tH2
+        0MtxcJBBE8ssjBURFLMxPQADqau6xoWsaVb28+oabc28V1bx3MLvGQrxybtjZ9G2tj6Gl8JaqND8TWOs
+        GxhvjYXCzrbzSyxpIynIy0To45AOVYHjrX0J+3H+0povxt8M6Lo+leGxaDS7mZnuJnlVy2ECyRqsmza4
+        3jbIrMmOGG454q9fEQxNOnTp3hK95X+Htp1v/VyklZts+aqKKK7SQooooA+o/Dnxt+FHiDWoNI0L9lS8
+        1PULptsFrZ+NL6WWU+iqsZJr6X8G/DD4Y2/gx/E/xd+EWkfDy0ZcwW8/ja8vLlj1wyLtAOOiqzN6gV5Z
+        4f8A2jvgX8ObWXwt8DdP0vwxbtGVufE2rabc3Fzc4/uqqM7seq+awQHqqivE/ir+0Zd6lrMt54biu9R1
+        M5H/AAkniUJcXS/9e1r80FsPQfvGHVWWvxXEcO08wrOhlmVKlFbzqKUfuT39En6o/TMPn2Z4alGvmOcV
+        XfVQp1XOb9WpckP+3m5L+Rn0R4z1H9nDQSup3HwuFh4ddd0Gp614ivbOW+Hra2itJNMp7NgKD94rXBft
+        SaN4J0zX/C2o/D/R5tK0XxH4Us9Zit55pJJMzvKQWLu5DbAgIDYyPxPyN4i1jVtf1mfVtc1O81K/uW3T
+        XV3O0ssh9WZiSa+hfjL8U/Aeu6H8PLfStd+0SaF4D0zSdRX7HOnkXUIk8yPLIN2Nw+Zcqc8E153FXAU8
+        BlcHhKbrVnLXkhsvJRTdvNtn1fAfHc8RxHH67iXSw6hLSpWnJN9HJ1Jcrl/hjFdkfRWgab+yroJ8GeFv
+        iHpy6X4g8QeFNP1gX15qN3FaXDTKVYGRZQkbb43OGCrgjB7Da8efDT4c+Ebk32ofAiTUvDbxl4ta0TxN
+        e3ioCMq0sOVZE7ll3ADpu6V8XftneOfC3jrW/AVx4V1T+0I9F8B6bpN+32eWLybqIy+ZH+8Vd2Ny/MuV
+        OeCazv2f/wBoj4p/B+4jj8L+IHn0pWzJo2oZns355whIMZPqhUnvmvZh4dQxOWUa1GKhW5U5RlFb9ndX
+        Xp+KPjZ8eZrh8zr+0xNSrScpJJVqisruzi4ztttdSj5M96+Ifi/4e+FNOfWB+zHb61oIYKNa0jx9fT2q
+        56CX90HgY9llVCewNfPn7RHxD8EePf7H/wCEN+Gn/CGf2f5/2v8A4ns2o/bN/l7P9Yo2bNj9Ou/noK+n
+        PD/7Qv7PXxEtpda8TDVPhP4yWMiXUdJt5bm2vCeoZYUPmK3O5ZEXI43Gvmj9qC/8A3/iKyl8E3Wg6hJ+
+        9N9qOi6ddWEV3nZ5Ze1mREicfPnygFOR3GT6XC+WUsHmMIYnLPZ1le1WCbh8Lve7fLdXW7Tbsc+d5tic
+        fgZyo5pUqUtOajVnLm3VrauFRJ2f2ZK1+RJXPLx1qe4sryCxt7ya2lS3u93kSspCy7Thtp74PBplo0SX
+        cTzpJJErgyJG+xmXPIDEHBx3wcehr6q/aS/aK+HXjr9mXTfBOj+Gri31yNLUXs6y+W24xmRz52zM4Eqp
+        5gcLvfDAnG4foeKxNelVpwp0nJSdm7/Cu58JFJp3Z8o0UVa0XTdQ1fVINN0uynvLy5cRwwQRl3kY9AAK
+        7G0ldknrX7GHwOPxv+IUmkXGpy6bY2Hlz3M3khlnjDjzIlfcCshXJX5WHBzjAzyH7QHw6vPhZ8Tr7wbe
+        3hvpLEKDeLD5cU5I+Yx/McqGyuTg/KcgdKyNL1LxZ4A8T3Ysp9Q0HWIopLOZkzDcQqw2uoP3lJGRkYOC
+        exrN8R6rqGu+IL7W9WuGub/UrmS6u52ABmldizuQOMliSfrXFTp4r63Kq6idJpWjbr3uU2uW1tSnRRRX
+        cSFFFFADoI5JpkhhjaSSRgqIi5ZieAAB1NdL8NvAmveN218aLAXPhzRLjWb0EH5YIdu/Hv8AMOKzvA+i
+        6j4g8VWelaVdWdrdzyjyp7y/is4oiOdzTSMqrjr1z6ZNfr98AfDmk3Pw8tNV1s+ENf8AE99pg07xFrmh
+        xxyR6mQOVklUZkyCC27qSSAAQK+d4gzz+y6cXGN2/Pb5dt+u/fprSpc7PxuEUpt2nETmJWCGTadoYgkA
+        n1IB49jTK+xP+CovhS6tta0//hGtX8FW3gzw9D9ntvDek31vbXNhO2BLJJagguzEKMoCQFGQOSfjuvUy
+        3HRxuGjXStfpvb121/rXciceV2Ciiiu4kKKKKACtTwR4j1jwj4ssPEvh+8az1TTJhPaXAUMYpB0bByD9
+        CCD3BFZ1tDNcXCQQRPLLIwVERSzMT0AA6mrusaFrGlW9vPqGm3FvFdW8dzC7xkK8cm7Y2fRtrY9cH0qJ
+        8jXJK2vTuCJPG3iPWPF3iy/8S+ILxrzVNUnM93cMoUyyHq2BgD6AADsAKy6KKqMVGKjFWSAKKKKYBRRR
+        QAV7V8Pf2lPG/wAOvhL4c8FfD6YaR/ZuqS6rql0yhzqMrP8ALCw/54iNUDDqxPYAZ8VornxGFo4mKjWi
+        pJO9nt1X6jUmtjrfjr4wg+IHxa1vxrb6cdP/ALcnW7mtd+4RTMi+aAe6+ZvIJ5wRnmuSoorWlTjThGnH
+        ZKy+Qm7u4UUUVYBRRRQBo+EtVGh+JrHWPsMF8bG4WdbeeSWNJGU5GWidJByAcqwPHWvoT9uP9pXRfjb4
+        Z0XR9K8NrajS7mZpLidpVcthAssarJ5e1xvG2RXZMcMNxz81UVx1sBQrYiniJr3oXtr3KUmk0gooorsJ
+        CiiigD//2Q==
+</value>
+  </data>
+  <data name="btGerman.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="labelParallaxAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPowersOf10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="labelRestWavelength.Text" xml:space="preserve">
+    <value>Rest Wavelength</value>
+  </data>
+  <data name="labelObservedWavelength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 44</value>
+  </data>
+  <data name="&gt;&gt;chTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelParallaxAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="btStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="&gt;&gt;btEnglish.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelObservedWavelength.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelMeasurement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 9</value>
+  </data>
+  <data name="tbStarVelocityRestWaveIn.Text" xml:space="preserve">
+    <value>500.0</value>
+  </data>
+  <data name="&gt;&gt;labelCelsius.Name" xml:space="preserve">
+    <value>labelCelsius</value>
+  </data>
+  <data name="labelBlackholeMass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistanceIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCelsius.Text" xml:space="preserve">
+    <value>Celsius</value>
+  </data>
+  <data name="&gt;&gt;btTemperature.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelMeasurement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btEnglish.Name" xml:space="preserve">
+    <value>btEnglish</value>
+  </data>
+  <data name="&gt;&gt;listViewAstroProcessing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCelsius.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelRestWavelength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listViewAstroProcessing.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocityRestWaveIn.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonPowerIn.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizonBlackholeIn.Name" xml:space="preserve">
+    <value>tbEventHorizonBlackholeIn</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de-DE</value>
+  </metadata>
 </root>

@@ -23,11 +23,11 @@ namespace AstroMath
             double K;
             return K = celsius + 273;
         }
-        public double MeasureEventHorizon(double blackholeMass, int kgPower)
+        public double MeasureEventHorizon(double blackholeMass, int powersOf10)
         {
             double gravityConstant = 6.674 * Math.Pow(10, -11);
             double R;
-            return R = (2 * gravityConstant * (blackholeMass * Math.Pow(10, kgPower))) / Math.Pow(c, 2);
+            return R = (2 * gravityConstant * (blackholeMass * Math.Pow(10, powersOf10))) / Math.Pow(c, 2);
         }
     }
 }

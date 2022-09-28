@@ -18,6 +18,6 @@ namespace AstronomicalProcessing
         [OperationContract]
         double MeasureTemperature(double celsius);
         [OperationContract]
-        double MeasureEventHorizon(double blackholeMass, int kgPower);
+        double MeasureEventHorizon(double blackholeMass, int powersOf10);
     }
 }

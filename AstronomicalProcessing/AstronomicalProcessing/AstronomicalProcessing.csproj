@@ -56,6 +56,12 @@
     <Compile Include="IAstroContract.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AstronomicalProcessing.de-DE.resx">
+      <DependentUpon>AstronomicalProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AstronomicalProcessing.fr-FR.resx">
+      <DependentUpon>AstronomicalProcessing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AstronomicalProcessing.resx">
       <DependentUpon>AstronomicalProcessing.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,5 +87,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

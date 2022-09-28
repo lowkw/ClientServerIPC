@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "efe0e8bc-b3c1-4861-a1db-0c6f13c86e00": {
+      "ProjectGuid": "efe0e8bc-b3c1-4861-a1db-0c6f13c86e00",
+      "DisplayName": "AstronomicalProcessing",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

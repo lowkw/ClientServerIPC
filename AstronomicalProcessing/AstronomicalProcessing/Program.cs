@@ -19,13 +19,6 @@ namespace AstronomicalProcessing
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AstronomicalProcessing());
-
-            ChannelFactory<IAstroContract> pipeFactory =
-                new ChannelFactory<IAstroContract>(
-                    new NetNamedPipeBinding(),
-                    new EndpointAddress("net.pipe://localhost/PipeAstro"));
-
-            IAstroContract pipeProxy = pipeFactory.CreateChannel();
         }
     }
 }

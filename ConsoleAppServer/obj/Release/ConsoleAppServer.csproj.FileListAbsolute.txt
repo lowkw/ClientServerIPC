@@ -20,3 +20,14 @@ H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\Console
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Release\ConsoleAppServer.csproj.CopyComplete
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Release\ConsoleAppServer.exe
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\ConsoleAppServer\obj\Release\ConsoleAppServer.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\bin\Release\ConsoleAppServer.exe.config
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\bin\Release\ConsoleAppServer.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\bin\Release\ConsoleAppServer.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\bin\Release\AstroMath.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\bin\Release\AstroMath.pdb
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.csproj.AssemblyReference.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.csproj.SuggestedBindingRedirects.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.csproj.CoreCompileInputs.cache
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.csproj.CopyComplete
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.exe
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\ConsoleAppServer\obj\Release\ConsoleAppServer.pdb
