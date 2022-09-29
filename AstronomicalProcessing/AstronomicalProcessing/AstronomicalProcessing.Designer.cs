@@ -54,37 +54,46 @@
             this.chStarDistance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chTemperature = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chEventHorizon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbStarVelocityObservedWaveIn
             // 
             resources.ApplyResources(this.tbStarVelocityObservedWaveIn, "tbStarVelocityObservedWaveIn");
             this.tbStarVelocityObservedWaveIn.Name = "tbStarVelocityObservedWaveIn";
+            this.tbStarVelocityObservedWaveIn.TextChanged += new System.EventHandler(this.tbStarVelocityObservedWaveIn_TextChanged);
             // 
             // tbStarDistanceIn
             // 
             resources.ApplyResources(this.tbStarDistanceIn, "tbStarDistanceIn");
             this.tbStarDistanceIn.Name = "tbStarDistanceIn";
+            this.tbStarDistanceIn.TextChanged += new System.EventHandler(this.tbStarDistanceIn_TextChanged);
             // 
             // tbStarVelocityRestWaveIn
             // 
             resources.ApplyResources(this.tbStarVelocityRestWaveIn, "tbStarVelocityRestWaveIn");
             this.tbStarVelocityRestWaveIn.Name = "tbStarVelocityRestWaveIn";
+            this.tbStarVelocityRestWaveIn.TextChanged += new System.EventHandler(this.tbStarVelocityRestWaveIn_TextChanged);
             // 
             // tbTemperatureIn
             // 
             resources.ApplyResources(this.tbTemperatureIn, "tbTemperatureIn");
             this.tbTemperatureIn.Name = "tbTemperatureIn";
+            this.tbTemperatureIn.TextChanged += new System.EventHandler(this.tbTemperatureIn_TextChanged);
             // 
             // tbEventHorizonBlackholeIn
             // 
             resources.ApplyResources(this.tbEventHorizonBlackholeIn, "tbEventHorizonBlackholeIn");
             this.tbEventHorizonBlackholeIn.Name = "tbEventHorizonBlackholeIn";
+            this.tbEventHorizonBlackholeIn.TextChanged += new System.EventHandler(this.tbEventHorizonBlackholeIn_TextChanged);
             // 
             // tbEventHorizonPowerIn
             // 
             resources.ApplyResources(this.tbEventHorizonPowerIn, "tbEventHorizonPowerIn");
             this.tbEventHorizonPowerIn.Name = "tbEventHorizonPowerIn";
+            this.tbEventHorizonPowerIn.TextChanged += new System.EventHandler(this.tbEventHorizonPowerIn_TextChanged);
             // 
             // btStarVelocity
             // 
@@ -124,8 +133,8 @@
             // 
             // btFrench
             // 
-            resources.ApplyResources(this.btFrench, "btFrench");
             this.btFrench.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.btFrench, "btFrench");
             this.btFrench.Name = "btFrench";
             this.btFrench.UseVisualStyleBackColor = true;
             this.btFrench.Click += new System.EventHandler(this.btFrench_Click);
@@ -174,13 +183,13 @@
             // 
             // listViewAstroProcessing
             // 
-            resources.ApplyResources(this.listViewAstroProcessing, "listViewAstroProcessing");
             this.listViewAstroProcessing.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chStarVelocity,
             this.chStarDistance,
             this.chTemperature,
             this.chEventHorizon});
             this.listViewAstroProcessing.HideSelection = false;
+            resources.ApplyResources(this.listViewAstroProcessing, "listViewAstroProcessing");
             this.listViewAstroProcessing.Name = "listViewAstroProcessing";
             this.listViewAstroProcessing.UseCompatibleStateImageBehavior = false;
             this.listViewAstroProcessing.View = System.Windows.Forms.View.Details;
@@ -201,10 +210,23 @@
             // 
             resources.ApplyResources(this.chEventHorizon, "chEventHorizon");
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            // 
             // AstronomicalProcessing
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.listViewAstroProcessing);
             this.Controls.Add(this.labelPowersOf10);
             this.Controls.Add(this.labelBlackholeMass);
@@ -227,6 +249,8 @@
             this.Controls.Add(this.tbStarDistanceIn);
             this.Controls.Add(this.tbStarVelocityObservedWaveIn);
             this.Name = "AstronomicalProcessing";
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,6 +283,8 @@
         private System.Windows.Forms.ColumnHeader chStarDistance;
         private System.Windows.Forms.ColumnHeader chTemperature;
         private System.Windows.Forms.ColumnHeader chEventHorizon;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 

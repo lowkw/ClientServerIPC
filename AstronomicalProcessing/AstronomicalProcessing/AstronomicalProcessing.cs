@@ -25,57 +25,217 @@ namespace AstronomicalProcessing
 
         private void CreateNamedPipeChannel()
         {
-            ChannelFactory<IAstroContract> pipeFactory =
-                new ChannelFactory<IAstroContract>(
-                    new NetNamedPipeBinding(),
-                    new EndpointAddress("net.pipe://localhost/PipeAstro"));
+            try
+            {
+                ChannelFactory<IAstroContract> pipeFactory =
+                    new ChannelFactory<IAstroContract>(
+                        new NetNamedPipeBinding(),
+                        new EndpointAddress("net.pipe://localhost/PipeAstro"));
 
-            pipeProxy = pipeFactory.CreateChannel();
+                pipeProxy = pipeFactory.CreateChannel();
+                if (pipeProxy != null)
+                {
+                    toolStripStatusLabel1.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {                
+                toolStripStatusLabel1.Text ="Server not connected";
+            }
         }
 
+        private void tbStarVelocityObservedWaveIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!double.TryParse(tbStarVelocityObservedWaveIn.Text, out double result))
+            {
+                MessageBox.Show("Observed Wavelength must be a floating-point number only.");
+            }
+        }
+
+        private void tbStarVelocityRestWaveIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!double.TryParse(tbStarVelocityRestWaveIn.Text, out double result))
+            {
+                MessageBox.Show("Rest Wavelength must be a floating-point number only.");
+            }
+        }
+
+        private void tbStarDistanceIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!double.TryParse(tbStarDistanceIn.Text, out double result))
+            {
+                MessageBox.Show("Parallax Angle must be a floating-point number only.");
+            }
+        }
+
+        private void tbTemperatureIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!double.TryParse(tbTemperatureIn.Text, out double result))
+            {
+                MessageBox.Show("Celsius must be a floating-point number only.");
+            }
+            else if (double.Parse(tbTemperatureIn.Text) <= -273)
+            {
+                MessageBox.Show("Celsius must be greater than -273.");
+            }
+        }
+
+        private void tbEventHorizonBlackholeIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!double.TryParse(tbEventHorizonBlackholeIn.Text, out double result))
+            {
+                MessageBox.Show("Blackhole Mass must be a floating-point number only.");
+            }
+        }
+
+        private void tbEventHorizonPowerIn_TextChanged(object sender, EventArgs e)
+        {
+            if (!int.TryParse(tbEventHorizonPowerIn.Text, out int result))
+            {
+                MessageBox.Show("Powers of 10 must be an integer number only.");
+            }
+        }
+
+        
         private void btStarVelocity_Click(object sender, EventArgs e)
         {
-            double d1 = Convert.ToDouble(tbStarVelocityObservedWaveIn.Text);
-            double d2 = Convert.ToDouble(tbStarVelocityRestWaveIn.Text);                              
-            ShowListViewAstroProcessing(0, pipeProxy.MeasureStarVelocity(d1, d2).ToString());
+            if (validateDoubleInput("Observed Wavelength",tbStarVelocityObservedWaveIn))
+            {
+                double d1 = Convert.ToDouble(tbStarVelocityObservedWaveIn.Text);
+                if (validateDoubleInput("Rest Wavelength",tbStarVelocityRestWaveIn))
+                {
+                    double d2 = Convert.ToDouble(tbStarVelocityRestWaveIn.Text);
+                    if (d2 == 0)
+                    {
+                        MessageBox.Show("Rest Wavelength must not be 0.");
+                    }
+                    else
+                    {
+                        try
+                        {
+                            toolStripStatusLabel1.Text = "Server connected";
+                            ShowListViewAstroProcessing(0, pipeProxy.MeasureStarVelocity(d1, d2));
+                        }
+                        catch (Exception ex)
+                        {
+                            CreateNamedPipeChannel();
+                            toolStripStatusLabel1.Text = "Server not connected !";
+                        }
+                    }
+                }
+            }
         }        
 
         private void btStarDistance_Click(object sender, EventArgs e)
         {
-            double d1 = Convert.ToDouble(tbStarDistanceIn.Text);
-            ShowListViewAstroProcessing(1, pipeProxy.MeasureStarDistance(d1).ToString());
+            if (validateDoubleInput("Parallax Angle", tbStarDistanceIn))
+            {
+                double d1 = Convert.ToDouble(tbStarDistanceIn.Text);
+                if (d1 == 0)
+                {
+                    MessageBox.Show("Parallax Angle must not be 0.");
+                }
+                else
+                {
+                    try
+                    {
+                        toolStripStatusLabel1.Text = "Server connected";
+                        ShowListViewAstroProcessing(1, pipeProxy.MeasureStarDistance(d1));
+                    }
+                    catch (Exception ex)
+                    {
+                        CreateNamedPipeChannel();
+                        toolStripStatusLabel1.Text = "Server not connected !";
+                    }
+                }
+            }
         }
 
         private void btTemperature_Click(object sender, EventArgs e)
-        {   
-            double d1 = Convert.ToDouble(tbTemperatureIn.Text);
-            ShowListViewAstroProcessing(2, pipeProxy.MeasureTemperature(d1).ToString());
+        {
+            if (validateDoubleInput("Celsius", tbTemperatureIn))
+            {
+                double d1 = Convert.ToDouble(tbTemperatureIn.Text);
+                if (double.Parse(tbTemperatureIn.Text) <= -273)
+                {
+                    MessageBox.Show("Celsius must be greater than -273.");
+                }
+                else
+                {
+                    try
+                    {
+                        toolStripStatusLabel1.Text = "Server connected";
+                        ShowListViewAstroProcessing(2, pipeProxy.MeasureTemperature(d1));
+                    }
+                    catch (Exception ex)
+                    {
+                        CreateNamedPipeChannel();
+                        toolStripStatusLabel1.Text = "Server not connected !";
+                    }
+                }
+            }
         }
 
         private void btEventHorizon_Click(object sender, EventArgs e)
         {
-            double d1 = Convert.ToDouble(tbEventHorizonBlackholeIn.Text);
-            int i1 = Convert.ToInt32(tbEventHorizonPowerIn.Text);            
-            ShowListViewAstroProcessing(3, pipeProxy.MeasureEventHorizon(d1, i1).ToString());
+            if (validateDoubleInput("Blackhole Mass", tbEventHorizonBlackholeIn))
+            {
+                double d1 = Convert.ToDouble(tbEventHorizonBlackholeIn.Text);
+                if (!int.TryParse(tbEventHorizonPowerIn.Text, out int result))
+                {
+                    MessageBox.Show("Powers of 10 must be an integer number only.");
+                }
+                else
+                {
+                    int i1 = Convert.ToInt32(tbEventHorizonPowerIn.Text);
+                    try
+                    {
+                        toolStripStatusLabel1.Text = "Server connected";
+                        ShowListViewAstroProcessing(3, pipeProxy.MeasureEventHorizon(d1, i1));
+                    }
+                    catch (Exception ex)
+                    {
+                        CreateNamedPipeChannel();
+                        toolStripStatusLabel1.Text = "Server not connected !";
+                    }
+                }
+            }
         }
 
-        private void ShowListViewAstroProcessing(int index, string output)
+        private bool validateDoubleInput(string textBoxName, TextBox inputTextBox)
         {
-            if (index == 0)
+            if (!double.TryParse(inputTextBox.Text, out double result))
             {
-                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { output, null, null, null }));
-            }
-            else if (index == 1)
-            {
-                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, output, null, null }));
-            }
-            else if (index == 2)
-            {
-                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, null, output, null }));
+                MessageBox.Show(textBoxName + " must be a floating-point number only.");
+                return false;
             }
             else
             {
-                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, null, null, output }));
+                return true;
+            }
+        }
+        private void ShowListViewAstroProcessing(int index, double output)
+        {
+            string result;
+            if (index == 0)
+            {
+                result = String.Format("{0:#}m/s", output);
+                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { result, null, null, null }));
+            }
+            else if (index == 1)
+            {
+                result = String.Format("{0:#.00}parsecs", output);
+                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, result, null, null }));
+            }
+            else if (index == 2)
+            {
+                result = String.Format("{0}K", output);
+                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, null, result, null }));
+            }
+            else
+            {
+                result = String.Format("{0:#.0E+0}m", output);
+                listViewAstroProcessing.Items.Add(new ListViewItem(new[] { null, null, null, result}));
             }
             listViewAstroProcessing.Items[listViewAstroProcessing.Items.Count-1].EnsureVisible();
         }
@@ -97,22 +257,18 @@ namespace AstronomicalProcessing
             switch (language)
             {
                 case "English":
-                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
-                    //this.BackgroundImage = Properties.Resources.Flag_of_US;
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");                    
                     break;
                 case "French":
-                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr-FR");
-                    //this.BackgroundImage = Properties.Resources.Flag_of_France;
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr-FR");                    
                     break;
                 case "German":
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de-DE");
-                    //this.BackgroundImage = Properties.Resources.Flag_of_Spain;
                     break;
             }
             Controls.Clear();
             InitializeComponent();
         }
-
         
     }
 }
