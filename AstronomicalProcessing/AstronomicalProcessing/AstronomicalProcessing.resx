@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tbStarVelocityObservedWaveIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 44</value>
+    <value>159, 62</value>
   </data>
   <data name="tbStarVelocityObservedWaveIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -141,10 +141,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbStarVelocityObservedWaveIn.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="tbStarDistanceIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 111</value>
+    <value>159, 143</value>
   </data>
   <data name="tbStarDistanceIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -165,10 +165,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbStarDistanceIn.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="tbStarVelocityRestWaveIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 75</value>
+    <value>159, 95</value>
   </data>
   <data name="tbStarVelocityRestWaveIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -189,10 +189,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbStarVelocityRestWaveIn.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="tbTemperatureIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 174</value>
+    <value>159, 188</value>
   </data>
   <data name="tbTemperatureIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -213,10 +213,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbTemperatureIn.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="tbEventHorizonBlackholeIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 233</value>
+    <value>159, 240</value>
   </data>
   <data name="tbEventHorizonBlackholeIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -237,10 +237,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbEventHorizonBlackholeIn.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="tbEventHorizonPowerIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 259</value>
+    <value>159, 266</value>
   </data>
   <data name="tbEventHorizonPowerIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -261,10 +261,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbEventHorizonPowerIn.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="btStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 44</value>
+    <value>300, 62</value>
   </data>
   <data name="btStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 23</value>
@@ -285,10 +285,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btStarVelocity.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="btStarDistance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 111</value>
+    <value>300, 140</value>
   </data>
   <data name="btStarDistance.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 23</value>
@@ -309,10 +309,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btStarDistance.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="btTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 171</value>
+    <value>300, 185</value>
   </data>
   <data name="btTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 23</value>
@@ -333,10 +333,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btTemperature.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="btEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 235</value>
+    <value>300, 240</value>
   </data>
   <data name="btEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 23</value>
@@ -357,7 +357,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btEventHorizon.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="btEnglish.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -444,7 +444,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btEnglish.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="btFrench.Location" type="System.Drawing.Point, System.Drawing">
     <value>333, 333</value>
@@ -468,7 +468,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btFrench.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="btGerman.Location" type="System.Drawing.Point, System.Drawing">
     <value>434, 333</value>
@@ -492,13 +492,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btGerman.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="labelMeasurement.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="labelMeasurement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 9</value>
+    <value>297, 33</value>
   </data>
   <data name="labelMeasurement.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 13</value>
@@ -519,13 +519,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelMeasurement.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="labelObservedWavelength.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="labelObservedWavelength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 44</value>
+    <value>13, 59</value>
   </data>
   <data name="labelObservedWavelength.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 13</value>
@@ -546,7 +546,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelObservedWavelength.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="labelRestWavelength.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -556,7 +556,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelRestWavelength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 78</value>
+    <value>13, 85</value>
   </data>
   <data name="labelRestWavelength.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 13</value>
@@ -577,7 +577,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelRestWavelength.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="labelParallaxAngle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -586,7 +586,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelParallaxAngle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 111</value>
+    <value>13, 150</value>
   </data>
   <data name="labelParallaxAngle.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 13</value>
@@ -607,7 +607,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelParallaxAngle.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="labelCelsius.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -616,7 +616,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelCelsius.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 176</value>
+    <value>13, 195</value>
   </data>
   <data name="labelCelsius.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 13</value>
@@ -637,7 +637,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelCelsius.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="labelBlackholeMass.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -646,7 +646,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelBlackholeMass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 236</value>
+    <value>13, 245</value>
   </data>
   <data name="labelBlackholeMass.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 13</value>
@@ -667,7 +667,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelBlackholeMass.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="labelPowersOf10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -676,7 +676,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelPowersOf10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 266</value>
+    <value>13, 269</value>
   </data>
   <data name="labelPowersOf10.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 13</value>
@@ -697,10 +697,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelPowersOf10.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="listViewAstroProcessing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 44</value>
+    <value>434, 62</value>
   </data>
   <data name="listViewAstroProcessing.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 235</value>
@@ -718,7 +718,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;listViewAstroProcessing.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="chStarVelocity.Text" xml:space="preserve">
     <value>Star Velocity</value>
@@ -774,8 +774,92 @@
   <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 17</value>
   </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 17</value>
+  </metadata>
+  <data name="styleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="styleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Francais</value>
+  </data>
+  <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="germanToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>867, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="modeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="modeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="dayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="dayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="nightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="nightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="colourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="colourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colour</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -815,6 +899,60 @@
   </data>
   <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;styleToolStripMenuItem.Name" xml:space="preserve">
+    <value>styleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;styleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modeToolStripMenuItem.Name" xml:space="preserve">
+    <value>modeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;modeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dayToolStripMenuItem.Name" xml:space="preserve">
+    <value>dayToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dayToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nightToolStripMenuItem.Name" xml:space="preserve">
+    <value>nightToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colourToolStripMenuItem.Name" xml:space="preserve">
+    <value>colourToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;colourToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>frenchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Name" xml:space="preserve">
+    <value>germanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AstronomicalProcessing</value>

@@ -25,3 +25,4 @@ H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.AstronomicalProcessing.fr-FR.resources
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\de-DE\AstronomicalProcessing.resources.dll
 H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\fr-FR\AstronomicalProcessing.resources.dll
+H:\Cluster - Complex Data Structures\Assessment\Task Two\ClientServerIPC\github\AstronomicalProcessing\AstronomicalProcessing\obj\Release\AstronomicalProcessing.csproj.AssemblyReference.cache

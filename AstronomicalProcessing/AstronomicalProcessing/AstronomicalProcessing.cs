@@ -269,6 +269,20 @@ namespace AstronomicalProcessing
             Controls.Clear();
             InitializeComponent();
         }
-        
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("English");
+        }
+
+        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("French");
+        }
+
+        private void germanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("German");
+        }
     }
 }

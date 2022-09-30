@@ -127,9 +127,6 @@
   <data name="btStarDistance.Text" xml:space="preserve">
     <value>Distance etoile</value>
   </data>
-  <data name="btTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 174</value>
-  </data>
   <data name="btEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 36</value>
   </data>
@@ -219,6 +216,21 @@
   </data>
   <data name="chEventHorizon.Text" xml:space="preserve">
     <value>Horizon des evenements</value>
+  </data>
+  <data name="dayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="nightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nuit</value>
+  </data>
+  <data name="colourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Langue</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Traitement astronomique</value>
