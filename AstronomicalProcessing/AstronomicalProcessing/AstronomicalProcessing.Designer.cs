@@ -144,8 +144,8 @@
             // 
             // btFrench
             // 
-            this.btFrench.ForeColor = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.btFrench, "btFrench");
+            this.btFrench.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btFrench.Name = "btFrench";
             this.btFrench.UseVisualStyleBackColor = true;
             this.btFrench.Click += new System.EventHandler(this.btFrench_Click);
@@ -194,13 +194,13 @@
             // 
             // listViewAstroProcessing
             // 
+            resources.ApplyResources(this.listViewAstroProcessing, "listViewAstroProcessing");
             this.listViewAstroProcessing.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chStarVelocity,
             this.chStarDistance,
             this.chTemperature,
             this.chEventHorizon});
             this.listViewAstroProcessing.HideSelection = false;
-            resources.ApplyResources(this.listViewAstroProcessing, "listViewAstroProcessing");
             this.listViewAstroProcessing.Name = "listViewAstroProcessing";
             this.listViewAstroProcessing.UseCompatibleStateImageBehavior = false;
             this.listViewAstroProcessing.View = System.Windows.Forms.View.Details;
@@ -223,80 +223,83 @@
             // 
             // statusStrip1
             // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Name = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.styleToolStripMenuItem,
             this.languageToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // styleToolStripMenuItem
             // 
+            resources.ApplyResources(this.styleToolStripMenuItem, "styleToolStripMenuItem");
             this.styleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.modeToolStripMenuItem,
             this.colourToolStripMenuItem});
             this.styleToolStripMenuItem.Name = "styleToolStripMenuItem";
-            resources.ApplyResources(this.styleToolStripMenuItem, "styleToolStripMenuItem");
             // 
             // modeToolStripMenuItem
             // 
+            resources.ApplyResources(this.modeToolStripMenuItem, "modeToolStripMenuItem");
             this.modeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dayToolStripMenuItem,
             this.nightToolStripMenuItem});
             this.modeToolStripMenuItem.Name = "modeToolStripMenuItem";
-            resources.ApplyResources(this.modeToolStripMenuItem, "modeToolStripMenuItem");
             // 
             // dayToolStripMenuItem
             // 
-            this.dayToolStripMenuItem.Name = "dayToolStripMenuItem";
             resources.ApplyResources(this.dayToolStripMenuItem, "dayToolStripMenuItem");
+            this.dayToolStripMenuItem.Name = "dayToolStripMenuItem";
+            this.dayToolStripMenuItem.Click += new System.EventHandler(this.dayToolStripMenuItem_Click);
             // 
             // nightToolStripMenuItem
             // 
-            this.nightToolStripMenuItem.Name = "nightToolStripMenuItem";
             resources.ApplyResources(this.nightToolStripMenuItem, "nightToolStripMenuItem");
+            this.nightToolStripMenuItem.Name = "nightToolStripMenuItem";
+            this.nightToolStripMenuItem.Click += new System.EventHandler(this.nightToolStripMenuItem_Click);
             // 
             // colourToolStripMenuItem
             // 
-            this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
             resources.ApplyResources(this.colourToolStripMenuItem, "colourToolStripMenuItem");
+            this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
+            this.colourToolStripMenuItem.Click += new System.EventHandler(this.colourToolStripMenuItem_Click);
             // 
             // languageToolStripMenuItem
             // 
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.frenchToolStripMenuItem,
             this.germanToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
-            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
             // englishToolStripMenuItem
             // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // frenchToolStripMenuItem
             // 
-            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
             resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
+            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
             this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
             // 
             // germanToolStripMenuItem
             // 
-            this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
             resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
+            this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
             this.germanToolStripMenuItem.Click += new System.EventHandler(this.germanToolStripMenuItem_Click);
             // 
             // AstronomicalProcessing

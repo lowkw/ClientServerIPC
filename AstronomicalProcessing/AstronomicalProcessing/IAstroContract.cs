@@ -11,6 +11,11 @@ namespace AstronomicalProcessing
     [ServiceContract]
     internal interface IAstroContract
     {
+        /*
+         * 7.1	
+         * Create the ServiceContract called “IAstroContract.cs” which will need 
+         * to be identical to the server without a reference to the AstroMath.DLL.
+         */
         [OperationContract]
         double MeasureStarVelocity(double observedWaveLength, double restWaveLength);
         [OperationContract]

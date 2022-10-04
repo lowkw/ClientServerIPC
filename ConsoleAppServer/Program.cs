@@ -11,6 +11,12 @@ namespace ConsoleAppServer
     {
         static void Main(string[] args)
         {
+            /*
+             * 6.3	
+             * Create a ServiceHost and NetNamedPipeBinding in the “Program.cs” file 
+             * to provide connection for the client(s). Ensure to add a Console.ReadLine 
+             * to pause the program during operation.
+             */
             using (ServiceHost host = new ServiceHost(typeof(AstroServer),
                     new Uri[]
                     {
