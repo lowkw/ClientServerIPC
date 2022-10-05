@@ -3,3 +3,14 @@
 ################################################################################
 
 /TestAstro/bin/Debug
+/TestAstro/obj/Debug
+/AstroMath/obj/Release
+/AstroMath/bin/Release
+/TestAstro/bin/Release
+/TestAstro/obj/Release
+/ConsoleAppClient/bin/Release
+/ConsoleAppClient/obj/Release
+/ConsoleAppServer/bin/Release
+/ConsoleAppServer/obj/Release
+/AstronomicalProcessing/AstronomicalProcessing/bin/Release
+/AstronomicalProcessing/AstronomicalProcessing/obj/Release

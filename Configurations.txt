@@ -6,12 +6,15 @@ TestAstro        - Console Application
 ConsoleAppServer - Console Application
                  - references AstroMath.dll
 ConsoleAppClient - Console Application
+AstronomicalProcessing - Windows Forms App (.NET Framework)
 
 Use the same .NET framework (i.e. .NET framework 4.7.2) for all the solutions:
 ------------------------------------------------------------------------------
 AstroMath
 ConsoleAppClient
 ConsoleAppServer
+AstronomicalProcessing
+
 Note: mixing .NET Core and .NET framework will result in ambiguous runtime errors.
 
 Add ServiceModel reference 
